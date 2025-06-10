@@ -187,6 +187,9 @@ aside img {
     line-height: 25px;
      margin-top:10px ;
 }
+ul{
+  padding-left: 10px;
+}
 ul p{
     font-size: 20px;
     margin-top: 10px;
