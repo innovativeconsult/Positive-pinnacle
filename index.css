@@ -627,6 +627,9 @@ background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
     width: 300px;
 
   }
+   .first {
+    min-height: 70vh;
+  }
   nav {
     flex-direction: column;
     height: auto;
