@@ -77,7 +77,7 @@ border-radius: 10px;
     min-height: 90vh;
     width: 100%;
     background-color:#BD75F4;
-    background-image: linear-gradient(to right,#c11ae2, #f063ba);
+    background-image: linear-gradient(#c11ae2, white);
     display: flex;
     
     
@@ -307,7 +307,7 @@ table,tr,td{
     /* background-color:rgb(168, 105, 226); */
     /* background-image: linear-gradient(to right, #8241B8,#6C33A3); */
     /* background-color: #6a5acd; */
-background-image: linear-gradient(to right, #f063ba,#c11ae2);
+background-image: linear-gradient(#c11ae2, white);
 color: black;
     
 }
