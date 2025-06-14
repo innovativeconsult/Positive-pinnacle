@@ -343,20 +343,22 @@ animation-range:entry 0% cover 20% ;
     height: 350px;
     width: 40%;
     border-radius: 3%;  
-     animation: slideUp 1s ease-in-out;
-    transition: transform 0.3s ease;
-  animation-name: slideup linear;
+     animation: sidemove 0.5s ease-in-out;
+    /* transition: transform 0.3s ease; */
+    animation-name: sidemove linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
 @keyframes sidemove {
       from{
          opacity: 0.5;
-        /* transform: translateX(-100px);
-        clip-path:inset(100% 100% 0 0); */
+        transform: translateX(-100px);
+        clip-path:inset(100% 100% 0 0); 
       } 
       to{
         opacity:1;
-        /* transform: translateX(0px);
-        clip-path:inset(0 0 0 0); */
+        transform: translateX(0px);
+        clip-path:inset(0 0 0 0);
       } 
 }
 @keyframes anime {
