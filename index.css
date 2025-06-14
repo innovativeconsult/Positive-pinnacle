@@ -308,6 +308,7 @@ table,tr,td{
     /* background-image: linear-gradient(to right, #8241B8,#6C33A3); */
     /* background-color: #6a5acd; */
 background-image: linear-gradient(#c11ae2, white);
+    margin-top:10px;
 color: black;
     
 }
