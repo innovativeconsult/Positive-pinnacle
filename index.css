@@ -11,7 +11,9 @@
     /* overflow: hidden; */
     scroll-behavior: smooth;
 }
-
+html{
+    scroll-behavior:soomth;
+}
 body{
     background: #fdfdfd;
     /* color: #333; */
